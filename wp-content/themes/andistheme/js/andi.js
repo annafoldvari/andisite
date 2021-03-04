@@ -68,20 +68,6 @@
     }
   }
 
-  // function add_open_link_handler($photo, url) {
-  //   $photo.click(function() {
-  //     window.open(url, "_blank");
-  //   });
-  // }
-  
-  // for (var i=0; i < photography.length; i++) {
-  //   var elem = photography[i];
-    
-  //   add_open_link_handler($photo, elem.url);
-
-    
-  // }
-
   $('.gallery-item').click(function() {
       var extra_window = $("<div class='lightbox'><div class='outerframe'><i class='fas fa-times closing-icon'></i><i class='fas fa-arrow-left prev-icon'></i><i class='fas fa-arrow-right next-icon'></i></div></div>");
       var outerframe = extra_window.find('.outerframe');
